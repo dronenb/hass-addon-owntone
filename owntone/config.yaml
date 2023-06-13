@@ -1,0 +1,11 @@
+---
+name: "OwnTone"
+description: "OwnTone add-on for Home Assistant"
+version: 28.6-ls115
+slug: owntone
+arch:
+  - aarch64
+host_network: true
+image: lscr.io/linuxserver/daapd
+startup: services
+privileged: true
